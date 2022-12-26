@@ -1,0 +1,30 @@
+.two-columns__illustration{
+  max-width: 460px;
+  height: 460px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+@media screen and (max-width: 1024px){
+  .two-columns__illustration{
+    max-width: 440px;
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .two-columns__illustration{
+    max-width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 320px){
+.two-columns__illustration{
+  max-width: 320px;
+  height: 320px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 32px;
+}
+}
