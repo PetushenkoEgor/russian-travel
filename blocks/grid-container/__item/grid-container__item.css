@@ -1,0 +1,25 @@
+.grid-container__item{
+  max-width: 284px;
+  min-height: 213px
+}
+
+@media screen and (max-width: 1024px){
+  .grid-container__item{
+   max-width: 300px;
+   min-height: 225px
+ }
+ }
+
+ @media screen and (max-width: 768px){
+  .grid-container__item{
+    max-width: 352px;
+    min-height: 264px
+  }
+}
+
+@media screen and (max-width: 320px){
+  .grid-container__item{
+    max-width: 288px;
+    min-height: 216px
+  }
+}

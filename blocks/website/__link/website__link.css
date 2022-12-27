@@ -1,0 +1,36 @@
+.website__link{
+  margin: 0;
+  width: 456px; 
+  height: 22px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration:underline;
+  color: #fff;
+}
+
+@media screen and (min-width: 1023px){
+  .website__link:hover{
+  opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .website__link{
+    margin: 0;
+    width: 352px; 
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .website__link{
+    width: 288px; 
+  }
+  }
+
+  @media screen and (min-width: 1023px){
+    .website__link:hover{
+    opacity: 0.8;
+    }
+  }

@@ -1,9 +1,0 @@
-.two-columns__paragraph_second-item{
-  margin-top: 26px;
-}
-
-@media screen and (max-width: 320px){
-  .two-columns__paragraph_second-item{
-    margin-top: 25px;
-  }
-}
