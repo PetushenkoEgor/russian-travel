@@ -21,8 +21,8 @@
 @media screen and (max-width: 320px){
   .website{
     margin: auto;
-    width: 288px; 
     height: 46px;
+    width: 288px;
     gap: 12px;
   }
   }
