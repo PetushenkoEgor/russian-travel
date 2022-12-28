@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 320px){
   .section-title_one-word{
-    width: 288px; 
     height: 35px;
+    width: 288px;
   }
 }
