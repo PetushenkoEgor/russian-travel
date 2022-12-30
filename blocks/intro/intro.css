@@ -4,15 +4,22 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 768px){
+@media  screen and ( min-width: 1281px){
+  .intro{
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
   .intro{
     margin: auto;
     max-width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .intro{
+    margin: auto;
     max-width: calc(100% - 32px);
   }
 }

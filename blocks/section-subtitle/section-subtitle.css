@@ -1,19 +1,20 @@
 .section-subtitle{
   margin: 0;
-  width: 360px;
-  height: 66px;
+  width: 360px; 
+  min-height: 66px;
+  font-family: 'Inter-Regular';
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   z-index: 2;
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .section-subtitle{
     width: 288px;
-    height: 48px;
+    min-height: 48px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;

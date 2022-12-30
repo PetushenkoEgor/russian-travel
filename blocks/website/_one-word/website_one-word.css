@@ -2,13 +2,13 @@
   height: 76px;
 }
 
-@media screen and (max-width: 768px){
+@media (min-width: 768px) and (max-width: 1023px){
   .website_one-word{
     height: 46px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .website_one-word{
     height: 46px;
   }

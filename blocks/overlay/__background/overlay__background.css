@@ -1,7 +1,7 @@
 .overlay__background{
   margin: 0;
   width: 100%;
-  min-height: 740px;
+  height: 740px;
   background-color: rgba(42, 44, 47, .3);
   z-index: 1;
   display: flex;
@@ -11,16 +11,16 @@
   gap: 32px;
 }
 
-@media screen and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1023px){
   .overlay__background{
-    min-height: 640px;
+    height: 480px; 
   }
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .overlay__background{
     width: 100%;
-    min-height: 200px;
+    height: 200px;
     gap: 16px;
   }
 }

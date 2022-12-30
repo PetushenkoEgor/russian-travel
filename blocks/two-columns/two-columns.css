@@ -8,7 +8,7 @@
   column-gap: 40px;
 }
 
-@media screen and (max-width: 1024px){
+@media (min-width: 1024px) and (max-width: 1279px){
   .two-columns{
     max-width: 928px;
     display: grid;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media (min-width: 768px) and (max-width: 1023px){
   .two-columns{
     margin: auto;
     margin-top: 48px;
@@ -30,7 +30,7 @@
  }
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .two-columns{
     margin-top: 32px;
     max-width: 320px;

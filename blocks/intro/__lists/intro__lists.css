@@ -10,13 +10,20 @@
   justify-content: start;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1281px){
+  .intro__lists{
+    margin: auto;
+    margin-top: 33px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
   .intro__lists{
    margin-left: 48px;
   }
  }
 
- @media screen and (max-width: 768px){
+ @media (min-width: 768px) and (max-width: 1023px){
   .intro__lists{
     margin: 0;
     margin-top: 33px;
@@ -24,10 +31,11 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .intro__lists{
+    margin: 0;
     margin-top: 34px;
     width: 288px;
-    height: 90px;
+    min-height: 90px;
   }
 }

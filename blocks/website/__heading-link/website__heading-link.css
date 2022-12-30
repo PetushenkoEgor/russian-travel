@@ -2,23 +2,24 @@
   margin: 0;
   padding: 0;
   width: 456px;
-  height: 12px;
+  min-height: 12px;
+  font-weight: 'Inter-Regular';
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
   color: #aaa;
 }
 
-@media screen and (max-width: 768px){
+@media (min-width: 768px) and (max-width: 1023px){
   .website__heading-link{
     margin: 0;
     padding: 0;
     width: 352px;
-    height: 12px;
+    min-height: 12px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media (min-width: 320px) and (max-width: 767px){
   .website__heading-link{
     width: 288px;
   }
