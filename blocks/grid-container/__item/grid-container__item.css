@@ -19,14 +19,14 @@
 
 @media screen and (max-width: 767px){
   .grid-container__item{
-    max-width: 288px; 
+    max-width: 288px;
     min-height: 216px;
   }
 }
 
 @media screen and (max-width: 300px){
   .grid-container__item{
-    width: 100%; 
+    width: 100%;
     min-height: 216px;
   }
 }
