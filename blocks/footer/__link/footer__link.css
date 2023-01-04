@@ -4,7 +4,7 @@
   margin-right: 18px;
   min-width: 50px;
   min-height: 18px;
-  font-family: 'Inter-Regular';
+  font-family: 'Inter Regular';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
@@ -16,7 +16,7 @@
   margin: 0;
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .footer__link{
     margin: 0;
     padding: 0;

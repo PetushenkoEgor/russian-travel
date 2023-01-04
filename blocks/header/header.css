@@ -9,7 +9,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .header{
     max-width: calc(100% - 32px);
   }   

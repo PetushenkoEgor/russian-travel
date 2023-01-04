@@ -3,7 +3,7 @@
   padding: 0;
   width: 456px;
   min-height: 12px;
-  font-weight: 'Inter-Regular';
+  font-weight: 'Inter Regular';
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
@@ -19,7 +19,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .website__heading-link{
     width: 288px;
   }

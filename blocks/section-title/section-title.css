@@ -3,7 +3,7 @@
   padding: 0;
   width: 460px;
   min-height: 76px;
-  font-family: 'Inter-Black';
+  font-family: 'Inter Black';
   font-weight: 900;
   font-size: 72px;
   line-height: 1.05;
@@ -26,7 +26,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .section-title{
     margin: auto;
     width: 288px;

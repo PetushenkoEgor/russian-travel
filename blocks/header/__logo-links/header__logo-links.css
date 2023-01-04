@@ -10,7 +10,7 @@
   padding-top: 28px;
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .header__logo-links{  
     min-height: 42px;
     padding-top: 28px;

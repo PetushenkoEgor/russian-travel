@@ -3,7 +3,7 @@
   padding: 0;
   align-content: flex-start;
   max-width: 484px;
-  font-family: 'Inter-Regular';
+  font-family: 'Inter Regular';
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .two-columns__paragraph{
     margin: auto;
     max-width: 288px;

@@ -3,7 +3,7 @@
   margin-top: 56px;
   width: 720px;
   min-height: 200px;
-  font-family: 'Inter-Black';
+  font-family: 'Inter Black';
   font-size: 96px;
   font-weight: 900;
   line-height: 1.04;
@@ -23,7 +23,7 @@
     } 
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .lead__title{
     margin: auto;
     margin-top: 48px;

@@ -19,7 +19,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
 .two-columns__illustration{
   max-width: 320px;
   height: 320px;
@@ -27,4 +27,11 @@
   grid-row-end: 2;
   margin-bottom: 32px;
 }
+}
+
+@media screen and (max-width: 319px){
+  .two-columns__illustration{
+    width: 100%;
+    min-height: 200px;
+  }
 }
