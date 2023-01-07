@@ -4,7 +4,7 @@
   height: 100%;
   z-index: 1;
   background-color: rgba(42, 44, 47, .3);
-  background-size: cover; 
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
