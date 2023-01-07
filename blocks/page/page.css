@@ -1,33 +1,14 @@
 .page{
   margin: 0;
+  margin: auto;
+  width: 100%;
   background-color: #2A2C2F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility; 
+  font-family: 'Inter', Arial, sans-serif;
 }
 
-@media screen and (min-width: 1281px){
-  .page{
-    margin: auto;
-    width: 100%;
-  }
-
-}
-
-@media (min-width: 1024px) and (max-width: 1279px){
-  .page{
-    margin: auto;
-    width: 100%;
-  } 
- }
-
- @media (min-width: 768px) and (max-width: 1023px){
-  .page{
-    margin: auto;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 767px){
-  .page{
-    margin: auto;
-    width: 100%;
-   } 
-}

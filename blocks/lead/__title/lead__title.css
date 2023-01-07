@@ -2,8 +2,6 @@
   margin: auto;
   margin-top: 56px;
   width: 720px;
-  min-height: 200px;
-  font-family: 'Inter Black';
   font-size: 96px;
   font-weight: 900;
   line-height: 1.04;
@@ -11,25 +9,15 @@
   text-align: center;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px){
+@media screen and (max-width: 1279px){
   .lead__title{
   margin-top: 48px;
   } 
  }
 
- @media (min-width: 768px) and (max-width: 1023px){
-  .lead__title{
-    margin-top: 48px;
-    } 
-}
-
 @media screen and (max-width: 767px){
   .lead__title{
-    margin: auto;
-    margin-top: 48px;
     width: 288px;
-    min-height: 88px;
-    font-weight: 900;
     font-size: 40px;
     line-height: 1.1;
   }

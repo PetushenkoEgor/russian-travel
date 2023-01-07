@@ -3,8 +3,6 @@
   padding: 0;
   margin-right: 18px;
   min-width: 50px;
-  min-height: 18px;
-  font-family: 'Inter Regular';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
@@ -16,13 +14,13 @@
   margin: 0;
 }
 
+.footer__link:hover{
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 767px){
   .footer__link{
-    margin: 0;
-    padding: 0;
     min-width: 74px;
-    min-height: 24px;
-    font-weight: 400;
     font-size: 24px;
     line-height: 1;
   }

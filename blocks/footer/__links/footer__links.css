@@ -6,9 +6,9 @@
 @media screen and (max-width: 767px){
   .footer__links{
     margin: 0;
-    height: 248px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
+    gap: 32px;
   }
-  }
+}
