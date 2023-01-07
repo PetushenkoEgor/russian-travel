@@ -1,4 +1,4 @@
-.place__website_heading-link{
+.place__heading-link{
   margin: 0;
   padding: 0;
   width: 456px;
@@ -9,13 +9,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
-  .place__website_heading-link{
+  .place__heading-link{
     width: 352px;
   }
 }
 
 @media screen and (max-width: 767px){
-  .place__website_heading-link{
+  .place__heading-link{
     width: 288px;
   }
 }

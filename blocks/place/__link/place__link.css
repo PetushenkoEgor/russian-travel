@@ -1,4 +1,4 @@
-.place__website_link{
+.place__link{
   margin: 0;
   min-height: 22px;
   width: 456px;
@@ -9,18 +9,18 @@
   color: #fff;
 }
 
-.place__website_link:hover{
+.place__link:hover{
   opacity: 0.8;
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
-  .place__website_link{
+  .place__link{
     width: 352px;
   }
 }
 
 @media screen and (max-width: 767px){
-  .place__website_link{
+  .place__link{
     width: 288px;
   }
   }
