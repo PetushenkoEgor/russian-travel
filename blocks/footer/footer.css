@@ -7,13 +7,13 @@
   justify-content: space-between;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px){
+@media screen and (max-width: 1279px){
   .footer{
     width: calc(100% - 96px);
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media screen and (max-width: 1023px){
   .footer{
     margin-top: 90px;
     width: calc(100% - 48px);

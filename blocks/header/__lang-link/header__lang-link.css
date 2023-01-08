@@ -4,11 +4,10 @@
   font-weight: 400;
   color: #fff;
   line-height: 1.17;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .header__lang-link:last-child{
-  text-decoration: none;
   margin-left: 18px;
 }
 

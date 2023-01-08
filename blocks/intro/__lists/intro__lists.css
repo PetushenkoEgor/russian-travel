@@ -15,22 +15,20 @@
   }  
 }
 
-@media (min-width: 1024px) and (max-width: 1279px){
+@media screen and (max-width: 1279px){
   .intro__lists{
     margin-left: 0;
   }
  }
 
- @media (min-width: 768px) and (max-width: 1023px){
+ @media screen and (max-width: 1023px){
   .intro__lists{
-    margin-left: 0;
     width: 720px;
   }
 }
 
 @media screen and (max-width: 767px){
   .intro__lists{
-    margin-left: 0;
     margin-top: 34px;
     width: 288px;
   }
