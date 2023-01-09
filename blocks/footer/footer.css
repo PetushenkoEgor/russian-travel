@@ -26,8 +26,6 @@
     margin-top: 64px;
     margin-left: 16px;
     width: 186px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 }
